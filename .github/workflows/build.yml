@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Org-level settings (Settings → Secrets and variables → Actions in the organization)
-      HOMELAB_REPO_NAME: ${{ vars.HOMELAB_REPO_NAME || 'homelab' }}
+      HOMELAB_REPO_NAME: ${{ vars.HOMELAB_REPO_NAME || 'drak-net' }}
     steps:
       - name: Check deploy app settings
         env:
